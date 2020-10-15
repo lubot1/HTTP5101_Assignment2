@@ -13,7 +13,7 @@ namespace HTTP5101_Assignment2.Controllers
         [HttpGet]
         public double PandemicModel(int population, double initial_infected, int R0)
         {
-            //Problem obtained from J2 question for the CCC2020
+            //Problem obtained from J2 question for the CCC2020 [https://cemc.math.uwaterloo.ca/contests/computing/2020/ccc/juniorEF.pdf]
             int days = 0;
             double infected = 0;
 
